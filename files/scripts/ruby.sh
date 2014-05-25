@@ -25,7 +25,9 @@ sudo apt-get -y install redis-server
 sudo /opt/vagrant_ruby/bin/gem install redis 
 sudo /opt/vagrant_ruby/bin/gem install resque 
 sudo /opt/vagrant_ruby/bin/gem install bundler 
-sudo /opt/vagrant_ruby/bin/gem install resque-web 
+sudo /opt/vagrant_ruby/bin/gem install resque-web
+sudo /opt/vagrant_ruby/bin/gem install rspec
+sudo /opt/vagrant_ruby/bin/gem install simplecov 
 
 cd /opt/vagrant_ruby/bin
 sudo cp /usr/local/rbenv/versions/2.1.2/bin/* ./
