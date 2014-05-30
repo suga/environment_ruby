@@ -47,6 +47,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
  # config.vm.provision :shell, :path => "files/scripts/ruby.sh"
  # config.vm.provision :shell, :path => "files/scripts/nginx.sh"
  # config.vm.provision :shell, :path => "files/scripts/mongodb.sh"
+ # config.vm.provision :shell, :path => "files/scripts/memcached.sh"
  # config.vm.provision :shell, :path => "files/scripts/bootstrap_app.sh"
 
 end
