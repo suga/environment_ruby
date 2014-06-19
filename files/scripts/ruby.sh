@@ -1,8 +1,5 @@
 #!/usr/bin/env bash
 
-sudo apt-get -y install build-essential
-sudo apt-get -y install curl
-
 cd /usr/local/src
 sudo curl --remote-name http://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.2.tar.gz
 

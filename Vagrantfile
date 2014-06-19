@@ -44,6 +44,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   #  puppet.options = [ '--verbose', '--debug' ]
   #end
 
+ # config.vm.provision :shell, :path => "files/scripts/init.sh"
  # config.vm.provision :shell, :path => "files/scripts/ruby.sh"
  # config.vm.provision :shell, :path => "files/scripts/nginx.sh"
  # config.vm.provision :shell, :path => "files/scripts/mongodb.sh"
